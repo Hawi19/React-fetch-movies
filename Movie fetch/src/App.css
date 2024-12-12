@@ -1,0 +1,125 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+ 
+
+  height: 40px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 500px;
+}
+span{
+ color: #007bff;
+}
+.search-box{
+
+
+  color: white;
+  padding: 50px;
+  margin-bottom: 20px;
+ 
+
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  
+}
+button:hover{
+  background-color: darkblue;
+}
+.loading {
+  text-align: center;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+
+
+
+.card {
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgb(19, 17, 17);
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+  text-align: center;
+
+}
+.movie-cards{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+.card-title {
+  font-size: 23px;
+  margin: 10px 0;
+  color: rgb(210, 243, 243);
+}
+
+.card p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+
+
+
+.card {
+  transition: transform 0.2s;
+  margin-bottom: 20px;}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
+@media(max-width:800px){
+
+.movie-cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
